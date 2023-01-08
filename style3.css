@@ -1,0 +1,187 @@
+*{
+    font-family: "Nunito Sans" ;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    display: flex;
+}
+.navbar ul li:hover{
+    color: #325da3;
+    cursor: pointer;
+}
+.icon{
+    padding-top: 20px;
+    height: 20px;
+}
+.call{
+    height: 40px;
+    padding-top: 10px;
+}
+.bt{
+    border-radius: 20px;
+    width: 150px;
+   height: 30px;
+   font-weight: 700;
+   font-size: 13px;
+   padding-left: 5px;
+   color:#325da3 ;
+    z-index: 1;
+    border: none;
+
+
+}
+.teleg{
+   position: relative;
+   z-index: 2;
+   left: 40px;
+
+}
+.content2{
+    padding-top: 100px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.all{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.one{
+    padding-top: 50px;
+    padding-left: 60px;
+    width: 80%;
+}
+.one p{
+    color: gray;
+    font-size: 20px;
+}
+.content2 h3{
+    color: gray;
+}
+.content6{
+    padding-top: 30px;
+    text-align: center;
+    background-image: url(./image/image\ 53.png);
+}
+.content6 h3, p {
+    color: gray;
+}
+.right6{
+    border-radius: 15px;
+    background-color: white;
+    height: 376px;
+    width: 536px;
+
+}
+.down{
+    display: flex;
+}
+.user img, input{
+    font-size: 20px;
+    text-align: left;
+    
+    padding-top: 50px;
+
+}
+.user input{
+border: none;
+color: gray;
+}
+.user input,span{
+    padding-right: 150px;
+}
+.user1{
+    position: relative;
+    right: 390px;
+    top: 80px;
+}
+.text2{
+    padding-right: 600px;
+}
+.bt1{
+    margin-top: -15px;
+}
+.content7{
+    padding-top: 100px;
+    text-align: center;
+    
+    background-image: url(./image/image\ 55.png);
+}
+.add{
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    line-height: 20px;
+    margin-left: 540px;
+    background-color: rgb(255, 255, 255);
+    width: 343px;
+    height: 306px;
+}
+.move{
+    position: absolute;
+    right: 1165px;
+}
+.go{
+    position: relative;
+top: 90px;
+left: 30px;
+}
+.content8{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 50px;
+    display: flex;
+}
+.line ul{
+    gap: 30px;
+    list-style: none;
+    display: flex;
+}
+.last1 img{
+    padding: 0 10px;
+}
+.last2{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    display: flex;
+}
+.last2 ul{
+    gap: 30px;
+    list-style: none;
+    display: flex;
+}
+.hrr{
+    text-decoration: none;
+    color: black;
+    
+
+}
+.hrr:hover{
+    color: #78a2e6;
+}
+.hrr:hover{
+    color: #78a2e6;
+}
+.navbar ul li:hover{
+    transform: scale(1.5)rotate(20deg);
+    
+    transition: 2s;
+}
